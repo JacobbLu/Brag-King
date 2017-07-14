@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Is this a good game?</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--for dialogs-->
+<div id="dialog">
+	<div id="xdiv">x</div>
+	<div id="SignUpDiv" style="display:none;">
+		<div class="InputDiv">
+			<input class="accountinput" id="SUE" type="text" placeholder="Email">
+			<input class="accountinput" id="SUU" type="text" placeholder="Username">
+		</div>
+		<div class="InputDiv">
+			<input class="accountinput" id="SUP" type="password" placeholder="Password">
+			<input class="accountinput" id="SUR" type="password" placeholder="Re-enter Password">
+		</div>
+		<p id="accountwarning"></p>
+		<button class="accountButton" id="SUB">sign up</button>
+	</div>
+	<div id="LogInDiv" style="display:none;">
+		<div class="InputDiv"><input class="accountinput" id="SIE" type="text" placeholder="Email"></div>
+		<div class="InputDiv"><input class="accountinput" id="SIP" type="password" placeholder="Password"></div>
+		<p id="accountwarning2"></p>
+		<button class="accountButton" id="SIB">login</button>
+	</div>
+</div>
+
+<div style="text-align:center;">
+	<div id="the-title">Is this a good game?</div>
+	<button id="the-button" onclick="GoGoGo()" ></button>
+</div>
+
+<div id="accountdiv" style="text-align:center; margin-top: 50px;">
+</div>
+
+<!-- <video playsinline autoplay muted loop poster="test.jpg" id="bgvid">
+    <source src="test.webm" type="video/webm">
+    <source src="test.mp4" type="video/mp4">
+</video> -->
+
+<!--Wild Dog-->
+<script src = "https://cdn.wilddog.com/sdk/js/2.0.0/wilddog.js"></script>
+<!--Test-->
+<script src="base.js"></script>
+
+</body>
+</html>
